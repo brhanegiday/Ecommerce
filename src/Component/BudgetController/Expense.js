@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import uuid from "uuid";
-import "./Component/BudgetController/budget.css";
+import "./budget.css";
 
-import { Alert } from "./Component/BudgetController/Alert";
-import { ExpenseForm } from "./Component/BudgetController/ExpenseForm";
-import { ExpenseList } from "./Component/BudgetController/ExpenseList";
+import { Alert } from "./Alert";
+import { ExpenseForm } from "./ExpenseForm";
+import { ExpenseList } from "./ExpenseList";
 
 const initialExpenses = localStorage.getItem("expenses")
   ? JSON.parse(localStorage.getItem("expenses"))
