@@ -8,11 +8,11 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import * as serviceWorker from "./serviceWorker";
 //import Ecommerce from "./Component/BudgetController/Expense";
-import Expense from "./Component/BudgetController/Expense";
+//import Expense from "./Component/BudgetController/Expense";
 
 ReactDOM.render(
   <Router>
-    <Expense />
+    <App />
   </Router>,
   document.getElementById("root")
 );
